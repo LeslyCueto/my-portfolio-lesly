@@ -98,13 +98,18 @@
     padding: 0.6em;
     width: 12em;
     border-radius: 1em;
-    font-size: 1em;
-    font-weight: 700;
-    color: var(--opentowork-btn-border);
     border: solid var(--opentowork-btn-border);
     border-width:1px;
     background-color:var(--opentowork-btn);
     transition: all 0.8s ease-out;
+}
+
+.aboutme__openforwork--btn{
+    text-decoration: none;
+    font-size: 1.3em;
+    font-weight: 700;
+    color: var(--opentowork-btn-border);
+    background: none;
 }
 
 /***** Cards styles *****/ 
@@ -323,6 +328,9 @@
         padding: 0.6em;
         width: 10em;
     }
+    .aboutme__openforwork--btn{
+        font-size: 1.2em;
+    }
     .cards__content{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -367,7 +375,10 @@
         margin-top: 2.5em;
     }
     .aboutme__ctn2--openforwork{
-        width: 12em;
+        width: 14em;
+    }
+    .aboutme__openforwork--btn{
+        font-size: 1.3em;
     }
     .cards__content{
         display: grid;
@@ -423,6 +434,9 @@
     .aboutme__ctn2--p{
         width: 75%;
         font-size: 1.3em;
+    }
+    .aboutme__openforwork--btn{
+        font-size: 1.4em;
     }
     .contact{
         display:flex;
